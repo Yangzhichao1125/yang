@@ -15,6 +15,9 @@ public class HelloWorld {
     private DataSource data;
     @Autowired
     private Student s;
+    @Autowired
+    private DataConfig dc;
+
 
     @RequestMapping("hello")
     public String helloWorld(){

@@ -36,6 +36,7 @@ public class DataConfig {
     @Bean
     public Student getStudentInfo(){
         Student s = new Student();
+        System.out.println("student+++++++");
         s.setAge(10);
         s.setName("yang");
         return s;
