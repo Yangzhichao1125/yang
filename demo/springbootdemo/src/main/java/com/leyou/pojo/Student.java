@@ -1,4 +1,4 @@
-package com.leyou.bean;
+package com.leyou.pojo;
 
 import lombok.Data;
 

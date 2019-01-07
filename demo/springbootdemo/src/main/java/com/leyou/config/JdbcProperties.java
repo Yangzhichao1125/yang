@@ -3,7 +3,7 @@ package com.leyou.config;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("jdbc")
+//@ConfigurationProperties("jdbc")
 @Data
 public class JdbcProperties {
     private String url;

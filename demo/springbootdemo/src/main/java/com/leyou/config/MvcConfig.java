@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
 
-    @Bean
+/*    @Bean
     public LoginInterceptor loginInterceptor(){
         return new LoginInterceptor();
     }
@@ -19,5 +19,5 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         // 通过registry来注册拦截器，通过addPathPatterns来添加拦截路径
         registry.addInterceptor(this.loginInterceptor()).addPathPatterns("/hello");
-    }
+    }*/
 }
