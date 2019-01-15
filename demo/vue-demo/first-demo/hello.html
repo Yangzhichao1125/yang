@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="first">
+
+    <input type="text" v-model= "num">
+    <button @click="num++">+</button>
+    <h1>
+        {{name}} 你好！<br>
+        {{num}} 人行
+
+    </h1>
+</div>
+
+<script src = "node_modules/vue/dist/vue.js"></script>
+<script>
+    var app = new Vue({
+       el:"#first" ,
+        data:{
+           name:"杨",
+            num:1
+        }
+    })
+</script>
+
+</body>
+</html>
