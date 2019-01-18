@@ -123,7 +123,6 @@
 - PV、QPS、并发
 
   - QPS：每秒处理的请求数量。8000/s
-
     - 比如你的程序处理一个请求平均需要0.1S，那么1秒就可以处理10个请求。QPS自然就是10，多线程情况下，这个数字可能就会有所增加。
 
   - 由PV和QPS如何需要部署的服务器数量？
@@ -493,7 +492,20 @@ public class LyRegistry {
 ### 3.5.4.配置文件
 
 ```yaml
-a
+server:
+  port: 10086
+spring:
+  application:
+    name: ly-registry
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka
+  server:
+    enable-self-preservation: false # 关闭自我保护
+    eviction-interval-timer-in-ms: 5000 # 每隔5秒进行一次服务列表清理
 ```
 
 ### 3.5.5.项目的结构：
