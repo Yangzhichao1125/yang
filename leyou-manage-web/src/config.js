@@ -1,4 +1,4 @@
-const baseUrl = 'http://api.leyou.com'
+const baseUrl = 'http://api.yangzhichao.com'
 const config = {
   locale: 'zh-CN', // en-US, zh-CN
   url: baseUrl,
@@ -7,7 +7,7 @@ const config = {
   },
   api: `${baseUrl}/api`,
   theme:{
-    primary: "#2196F3",
+    primary: "#64b5f6",
     secondary: "#455A64",
     accent: "#9c27b0",
     error: "#f44336",

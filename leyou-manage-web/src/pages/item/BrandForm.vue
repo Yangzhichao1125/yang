@@ -14,7 +14,7 @@
       required
       mask="A"
     />
-    <v-cascader url="/item/category/list" required
+    <v-cascader url="/item/category/getCategoryByPid" required
                 v-model="brand.categories"
                 multiple label="商品分类"/>
     <v-layout row>
@@ -74,11 +74,12 @@
       submit() {
         // 表单校验
         if (this.$refs.brandForm.validate()) {
-          this.brand.categories = this.brand.categories.map(c => c.id);
+          this.brand.categories = this.brand.categories.map(c => c.id).join(",");
           this.brand.letter = this.brand.letter.toUpperCase();
           // 将数据提交到后台
           this.$http({
-            method: this.isEdit ? 'put' : 'post',
+            // method: this.isEdit ? 'put' : 'post',
+            method: 'post',
             url: '/item/brand',
             data: this.$qs.stringify(this.brand)
           }).then(() => {

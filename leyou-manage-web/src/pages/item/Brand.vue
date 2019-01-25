@@ -150,13 +150,30 @@
 
       },
       getDataFromApi() {
+        // this.loading = true;
+        // // 200ms后返回假数据
+        // window.setTimeout(() => {
+        //   this.items = brandData.slice(0,4);
+        //   this.totalItems = 100
+        //   this.loading = false;
+        // }, 200)
         this.loading = true;
-        // 200ms后返回假数据
-        window.setTimeout(() => {
-          this.items = brandData.slice(0,4);
-          this.totalItems = 100
+        // 从服务的加载数的方法。
+        // 发起请求
+        this.$http.get("/item/brand/page", {
+          params: {
+            key: this.search, // 搜索条件
+            page: this.pagination.page,// 当前页
+            rows: this.pagination.rowsPerPage,// 每页大小
+            sortBy: this.pagination.sortBy,// 排序字段
+            desc: this.pagination.descending// 是否降序
+          }
+        }).then(resp => { // 这里使用箭头函数
+          this.items = resp.data.items;
+          this.totalItems = resp.data.total;
+          // 完成赋值后，把加载状态赋值为false
           this.loading = false;
-        }, 200)
+        })
       }
     }
   }

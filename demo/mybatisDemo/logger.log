@@ -1,238 +1,141 @@
-2019-01-03 16:42:20.416  INFO 1341 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1341 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:42:20.418  INFO 1341 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:42:21.075  WARN 1341 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:42:21.076  WARN 1341 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:42:21.081  WARN 1341 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:42:21.081  WARN 1341 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:42:22.471  INFO 1341 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:42:22.902  INFO 1341 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 2.886 seconds (JVM running for 4.849)
-2019-01-03 16:42:23.146  INFO 1341 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:42:23.158  WARN 1341 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019-01-03 16:42:25.071  INFO 1341 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:42:25.276  INFO 1341 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:42:25.281  INFO 1341 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:42:26.271  INFO 1341 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:44:44.470  INFO 1354 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1354 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:44:44.472  INFO 1354 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:44:45.293  WARN 1354 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:44:45.293  WARN 1354 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:44:45.300  WARN 1354 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:44:45.301  WARN 1354 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:44:46.693  INFO 1354 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:44:47.076  INFO 1354 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.018 seconds (JVM running for 4.078)
-2019-01-03 16:44:47.279  INFO 1354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:44:47.282  WARN 1354 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019-01-03 16:44:49.563  INFO 1354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:44:49.756  INFO 1354 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:44:49.757  INFO 1354 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:44:50.526  INFO 1354 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:45:42.668  INFO 1360 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1360 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:45:42.669  INFO 1360 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:45:43.419  WARN 1360 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:45:43.419  WARN 1360 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:45:43.428  WARN 1360 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:45:43.428  WARN 1360 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:45:44.913  INFO 1360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:45:45.296  INFO 1360 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.082 seconds (JVM running for 4.126)
-2019-01-03 16:45:45.460  INFO 1360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:45:48.235  INFO 1360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:45:48.396  INFO 1360 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:45:48.397  INFO 1360 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:45:49.145  INFO 1360 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:46:42.234  INFO 1364 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1364 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:46:42.237  INFO 1364 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:46:42.993  WARN 1364 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:46:42.993  WARN 1364 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:46:43.004  WARN 1364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:46:43.004  WARN 1364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:46:44.458  INFO 1364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:46:44.874  INFO 1364 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.051 seconds (JVM running for 4.1)
-2019-01-03 16:46:45.103  INFO 1364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:46:47.236  INFO 1364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:46:47.410  INFO 1364 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:46:47.411  INFO 1364 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:46:48.131  INFO 1364 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:50:03.789  INFO 1370 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1370 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:50:03.790  INFO 1370 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:50:04.548  WARN 1370 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:50:04.548  WARN 1370 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:50:04.558  WARN 1370 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:50:04.558  WARN 1370 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:50:05.897  INFO 1370 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:50:06.354  INFO 1370 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 2.969 seconds (JVM running for 4.014)
-2019-01-03 16:50:06.551  INFO 1370 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:50:08.144  INFO 1370 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:50:08.286  INFO 1370 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:50:08.287  INFO 1370 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:50:09.118  INFO 1370 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:50:57.910  INFO 1374 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1374 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:50:57.912  INFO 1374 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:50:58.695  WARN 1374 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.mytabtsexample.demo.dao.UserMapper' mapperInterface. Bean already defined with the same name!
-2019-01-03 16:50:58.696  WARN 1374 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:51:00.057  INFO 1374 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:51:00.504  INFO 1374 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 2.995 seconds (JVM running for 4.024)
-2019-01-03 16:51:00.703  INFO 1374 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:51:03.219  INFO 1374 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:51:03.346  INFO 1374 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:51:03.347  INFO 1374 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:51:04.140  INFO 1374 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:52:00.862  INFO 1379 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1379 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:52:00.872  INFO 1379 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:52:01.665  WARN 1379 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:52:01.673  WARN 1379 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:52:02.222  WARN 1379 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mytabtsexample.demo.dao.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019-01-03 16:52:02.234  INFO 1379 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-01-03 16:52:02.338 ERROR 1379 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field userMapper in com.mytabtsexample.demo.service.UserService required a bean of type 'com.mytabtsexample.demo.dao.UserMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.mytabtsexample.demo.dao.UserMapper' in your configuration.
-
-2019-01-03 16:52:02.347 ERROR 1379 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@a514af7] to prepare test instance [com.mytabtsexample.demo.MybatisDemoApplicationTests@4fe01805]
-
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
-	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mytabtsexample.demo.dao.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	... 24 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mytabtsexample.demo.dao.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1644) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1203) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
-	... 42 common frames omitted
-
-2019-01-03 16:52:29.883  INFO 1383 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1383 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:52:29.892  INFO 1383 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:52:30.682  WARN 1383 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:52:30.691  WARN 1383 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:52:32.133  INFO 1383 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:52:32.549  INFO 1383 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.078 seconds (JVM running for 4.065)
-2019-01-03 16:52:32.748  INFO 1383 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:52:34.445  INFO 1383 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:52:34.568  INFO 1383 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:52:34.569  INFO 1383 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:52:35.323  INFO 1383 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:55:45.517  INFO 1389 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1389 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:55:45.519  INFO 1389 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:55:46.277  WARN 1389 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:55:46.285  WARN 1389 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:55:47.692  INFO 1389 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:55:48.082  INFO 1389 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 2.977 seconds (JVM running for 4.011)
-2019-01-03 16:55:48.276  INFO 1389 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:55:50.048  INFO 1389 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:55:50.195  INFO 1389 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:55:50.196  INFO 1389 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 16:55:51.010  INFO 1389 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 16:56:57.222  INFO 1393 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1393 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 16:56:57.225  INFO 1393 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 16:56:58.078  WARN 1393 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:56:58.088  WARN 1393 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 16:56:59.739  INFO 1393 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 16:57:00.300  INFO 1393 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.486 seconds (JVM running for 5.764)
-2019-01-03 16:57:08.837  INFO 1393 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 16:57:14.349  INFO 1393 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 16:58:46.035  WARN 1393 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s766ms).
-2019-01-03 16:59:39.748  WARN 1393 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s734ms).
-2019-01-03 17:04:40.576  WARN 1393 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m834ms).
-2019-01-03 17:04:40.587  INFO 1393 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:04:40.588  INFO 1393 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 17:04:40.885  INFO 1393 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 17:04:44.473  INFO 1405 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1405 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 17:04:44.475  INFO 1405 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 17:04:45.241  WARN 1405 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:04:45.258  WARN 1405 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:04:46.697  INFO 1405 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:04:47.105  INFO 1405 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 3.13 seconds (JVM running for 4.248)
-2019-01-03 17:04:47.279  INFO 1405 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 17:04:49.448  INFO 1405 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 17:04:49.456 DEBUG 1405 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==>  Preparing: SELECT id,username,password,phone,created FROM tb_user WHERE id = ? AND username = ? AND password = ? AND phone = ? AND created = ? 
-2019-01-03 17:04:49.486 DEBUG 1405 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==> Parameters: 16(Long), 16(Long), 16(Long), 16(Long), 16(Long)
-2019-01-03 17:04:49.591 DEBUG 1405 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : <==      Total: 0
-2019-01-03 17:04:49.601  INFO 1405 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:04:49.604  INFO 1405 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 17:04:50.539  INFO 1405 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 17:05:46.836  INFO 1408 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1408 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 17:05:46.837  INFO 1408 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 17:05:47.732  WARN 1408 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:05:47.743  WARN 1408 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:05:49.922  INFO 1408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:05:50.368  INFO 1408 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 4.046 seconds (JVM running for 5.165)
-2019-01-03 17:05:50.561  INFO 1408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 17:05:52.031  INFO 1408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 17:05:52.039 DEBUG 1408 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==>  Preparing: SELECT id,username,password,phone,created FROM tb_user WHERE id = ? AND username = ? AND password = ? AND phone = ? AND created = ? 
-2019-01-03 17:05:52.076 DEBUG 1408 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==> Parameters: 16(Long), 16(Long), 16(Long), 16(Long), 16(Long)
-2019-01-03 17:05:52.203 DEBUG 1408 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : <==      Total: 0
-2019-01-03 17:05:52.211  INFO 1408 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:05:52.215  INFO 1408 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 17:05:52.973  INFO 1408 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-01-03 17:09:39.763  INFO 1414 --- [main] c.m.demo.MybatisDemoApplicationTests     : Starting MybatisDemoApplicationTests on localhost with PID 1414 (started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
-2019-01-03 17:09:39.764  INFO 1414 --- [main] c.m.demo.MybatisDemoApplicationTests     : No active profile set, falling back to default profiles: default
-2019-01-03 17:09:40.483  WARN 1414 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:09:40.492  WARN 1414 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
-2019-01-03 17:09:41.897  INFO 1414 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:09:42.306  INFO 1414 --- [main] c.m.demo.MybatisDemoApplicationTests     : Started MybatisDemoApplicationTests in 2.975 seconds (JVM running for 3.973)
-2019-01-03 17:09:42.549  INFO 1414 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-01-03 17:09:43.950  INFO 1414 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-01-03 17:09:43.959 DEBUG 1414 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==>  Preparing: SELECT id,username,password,phone,created FROM tb_user WHERE id = ? AND username = ? AND password = ? AND phone = ? AND created = ? 
-2019-01-03 17:09:43.985 DEBUG 1414 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : ==> Parameters: 16(Long), 16(Long), 16(Long), 16(Long), 16(Long)
-2019-01-03 17:09:44.106 DEBUG 1414 --- [main] c.m.d.dao.UserMapper.selectByPrimaryKey  : <==      Total: 0
-2019-01-03 17:09:44.114  INFO 1414 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-01-03 17:09:44.114  INFO 1414 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-01-03 17:09:44.889  INFO 1414 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-23 16:00:38.589  INFO 927 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 927 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:00:38.599  INFO 927 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:00:39.354  WARN 927 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:00:39.362  WARN 927 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:00:39.972  INFO 927 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:00:39.995  INFO 927 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:00:39.995  INFO 927 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:00:40.002  INFO 927 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:00:40.281  INFO 927 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:00:40.287  INFO 927 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:00:40.287  INFO 927 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1610 ms
+2019-01-23 16:00:40.898  INFO 927 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:00:41.253  INFO 927 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:00:41.263  INFO 927 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 3.428 seconds (JVM running for 4.384)
+2019-01-23 16:00:48.659  INFO 927 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:00:48.660  INFO 927 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:00:48.666  INFO 927 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-01-23 16:03:30.952  INFO 927 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:03:33.124  INFO 942 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 942 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:03:33.126  INFO 942 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:03:33.611  WARN 942 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:03:33.617  WARN 942 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:03:34.081  INFO 942 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:03:34.099  INFO 942 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:03:34.099  INFO 942 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:03:34.105  INFO 942 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:03:34.263  INFO 942 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:03:34.266  INFO 942 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:03:34.266  INFO 942 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1109 ms
+2019-01-23 16:03:34.679  INFO 942 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:03:34.895  INFO 942 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:03:34.902  INFO 942 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.053 seconds (JVM running for 2.923)
+2019-01-23 16:03:56.572  INFO 942 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:03:56.573  INFO 942 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:03:56.578  INFO 942 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-23 16:05:33.387  INFO 942 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:05:37.200  INFO 958 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 958 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:05:37.203  INFO 958 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:05:37.680  WARN 958 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:05:37.686  WARN 958 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:05:38.155  INFO 958 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:05:38.173  INFO 958 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:05:38.174  INFO 958 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:05:38.180  INFO 958 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:05:38.339  INFO 958 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:05:38.341  INFO 958 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:05:38.341  INFO 958 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1107 ms
+2019-01-23 16:05:38.741  INFO 958 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:05:38.981  INFO 958 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:05:38.995  INFO 958 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.072 seconds (JVM running for 2.684)
+2019-01-23 16:05:48.546  INFO 958 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:05:48.547  INFO 958 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:05:48.552  INFO 958 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-23 16:06:25.504  INFO 958 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:06:27.640  INFO 968 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 968 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:06:27.642  INFO 968 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:06:28.157  WARN 968 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:06:28.164  WARN 968 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:06:28.704  INFO 968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:06:28.722  INFO 968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:06:28.723  INFO 968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:06:28.729  INFO 968 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:06:28.883  INFO 968 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:06:28.886  INFO 968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:06:28.887  INFO 968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1212 ms
+2019-01-23 16:06:29.304  INFO 968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:06:29.545  INFO 968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:06:29.549  INFO 968 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.198 seconds (JVM running for 3.028)
+2019-01-23 16:06:32.488  INFO 968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:06:32.489  INFO 968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:06:32.495  INFO 968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-01-23 16:08:59.166  INFO 968 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:09:01.001  INFO 980 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 980 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:09:01.003  INFO 980 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:09:01.484  WARN 980 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:09:01.489  WARN 980 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:09:01.918  INFO 980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:09:01.933  INFO 980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:09:01.933  INFO 980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:09:01.938  INFO 980 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:09:02.090  INFO 980 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:09:02.092  INFO 980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:09:02.093  INFO 980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1062 ms
+2019-01-23 16:09:02.470  INFO 980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:09:02.694  INFO 980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:09:02.699  INFO 980 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 1.998 seconds (JVM running for 2.659)
+2019-01-23 16:09:05.879  INFO 980 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:09:05.880  INFO 980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:09:05.885  INFO 980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-23 16:09:50.969  INFO 980 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:09:53.186  INFO 993 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 993 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:09:53.188  INFO 993 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:09:53.679  WARN 993 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:09:53.684  WARN 993 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:09:54.205  INFO 993 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:09:54.240  INFO 993 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:09:54.240  INFO 993 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:09:54.247  INFO 993 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:09:54.447  INFO 993 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:09:54.451  INFO 993 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:09:54.452  INFO 993 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1232 ms
+2019-01-23 16:09:55.005  INFO 993 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:09:55.288  INFO 993 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:09:55.291  INFO 993 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.397 seconds (JVM running for 3.341)
+2019-01-23 16:09:56.175  INFO 993 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:09:56.175  INFO 993 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:09:56.181  INFO 993 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-01-23 16:18:40.894  INFO 993 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:18:42.907  INFO 1008 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 1008 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:18:42.910  INFO 1008 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:18:43.379  WARN 1008 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:18:43.385  WARN 1008 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:18:43.861  INFO 1008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:18:43.880  INFO 1008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:18:43.881  INFO 1008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:18:43.888  INFO 1008 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:18:44.073  INFO 1008 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:18:44.078  INFO 1008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:18:44.078  INFO 1008 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1125 ms
+2019-01-23 16:18:44.579  INFO 1008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:18:44.803  INFO 1008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:18:44.809  INFO 1008 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.157 seconds (JVM running for 2.846)
+2019-01-23 16:18:54.748  INFO 1008 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:18:56.984  INFO 1016 --- [main] c.m.demo.MybatisDemoApplication          : Starting MybatisDemoApplication on localhost with PID 1016 (/Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo/target/classes started by yang in /Users/yang/Downloads/javaTeach/leyou/gitProject/firstProject/yang/demo/mybatisDemo)
+2019-01-23 16:18:56.986  INFO 1016 --- [main] c.m.demo.MybatisDemoApplication          : No active profile set, falling back to default profiles: default
+2019-01-23 16:18:57.592  WARN 1016 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:18:57.601  WARN 1016 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mytabtsexample.demo]' package. Please check your configuration.
+2019-01-23 16:18:58.110  INFO 1016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-23 16:18:58.128  INFO 1016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-23 16:18:58.129  INFO 1016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-23 16:18:58.135  INFO 1016 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-23 16:18:58.325  INFO 1016 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-23 16:18:58.329  INFO 1016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-23 16:18:58.329  INFO 1016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1311 ms
+2019-01-23 16:18:58.739  INFO 1016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 16:18:59.059  INFO 1016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-23 16:18:59.069  INFO 1016 --- [main] c.m.demo.MybatisDemoApplication          : Started MybatisDemoApplication in 2.435 seconds (JVM running for 3.349)
+2019-01-23 16:18:59.365  INFO 1016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 16:18:59.365  INFO 1016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-23 16:18:59.373  INFO 1016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-01-23 19:01:28.984  INFO 1016 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

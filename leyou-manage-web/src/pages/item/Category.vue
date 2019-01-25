@@ -1,7 +1,7 @@
 <template>
   <v-card>
       <v-flex xs12 sm10>
-        <v-tree url="/item/category/list"
+        <v-tree url="/item/category/getCategoryByPid"
                 :treeData="treeData"
                 :isEdit="isEdit"
                 @handleAdd="handleAdd"
@@ -14,14 +14,17 @@
 </template>
 
 <script>
-  import {treeData} from '../../mockDB'
+  // import {treeData} from '../../mockDB'
   export default {
     name: "category",
     data() {
       return {
-        treeData: treeData,
+        treeData: [],
         isEdit:true
       }
+    },mounted(){ // 渲染后执行
+      // 查询数据
+      this.getDataFromServer();
     },
     methods: {
       handleAdd(node) {
@@ -36,6 +39,17 @@
       },
       handleClick(node) {
         console.log(node)
+      },
+      getDataFromServer(){
+        // 从服务的加载数的方法。
+        // 发起请求
+        this.$http.get("/item/category/getCategoryByPid", {
+          params: {
+            pid:0
+          }
+        }).then(resp => { // 这里使用箭头函数
+          this.treeData = resp.data;
+        })
       }
     }
   };
