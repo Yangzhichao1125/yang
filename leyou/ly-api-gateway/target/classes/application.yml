@@ -13,12 +13,14 @@ eureka:
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port}
 zuul:
+  ignored-services:
+    - upload-service # 忽略upload-service服务
   prefix: /api # 添加路由前缀
   retryable: true
   routes:
     item-service: /item/** # 将商品微服务映射到/item/**
 ribbon:
-  ConnectTimeout: 250 # 连接超时时间(ms)
+  ConnectTimeout: 2500 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
   OkToRetryOnAllOperations: true # 是否对所有操作重试
   MaxAutoRetriesNextServer: 1 # 同一服务不同实例的重试次数

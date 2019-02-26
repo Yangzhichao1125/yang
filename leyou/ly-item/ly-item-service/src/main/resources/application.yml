@@ -4,9 +4,9 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://47.105.182.72:3306/leyou
-    username: yang
-    password: Yzc187600...
+    url: jdbc:mysql://127.0.0.1:3306/yang
+    username: root
+    password: 1qaz
     hikari:
       maximum-pool-size: 30
       minimum-idle: 10
