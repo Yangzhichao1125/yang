@@ -101,25 +101,21 @@
     },
     data() {
       return {
-        search: {
-          key: '',
-          saleable: true,
-        },// 过滤字段
+        search: '',// 过滤字段
         totalItems: 0,// 总条数
         items: [],// 表格数据
         loading: true,
         pagination: {},// 分页信息
         headers: [// 表头
           {text: 'id', align: 'center', value: 'id'},
-          {text: '标题', align: 'center', sortable: false, value: 'name'},
-          {text: '商品分类', align: 'center', sortable: false, value: 'image'},
-          {text: '品牌', align: 'center', value: 'letter', sortable: true,},
-          {text: '操作', align: 'center', value: 'id', sortable: false}
+          {text: '标题', align: 'center', sortable: false, value: 'title'},
+          {text: '商品分类', align: 'center', sortable: false, value: 'cname'},
+          {text: '品牌', align: 'center', value: 'bname', sortable: false,},
+          {text: '操作', align: 'center', sortable: false}
         ],
         show: false,// 是否弹出窗口
         selectedGoods: null, // 选中的商品信息
         isEdit: false, // 判断是编辑还是新增
-        step: 1// 表单中的导航条
       }
     },
     watch: {
@@ -200,14 +196,22 @@
           });
 
       },
-      getDataFromApi() {
-        this.loading = true;
-        setTimeout(() => {
-          // 返回假数据
-          this.items = goodsData.slice(0, 4);
-          this.totalItems = 25;
+      getDataFromApi() {// 从服务的加载数的方法。
+        // 发起请求
+        this.$http.get("/item/spu/page", {
+          params: {
+            key: this.search, // 搜索条件
+            page: this.pagination.page,// 当前页
+            rows: this.pagination.rowsPerPage,// 每页大小
+            sortBy: this.pagination.sortBy,// 排序字段
+            desc: this.pagination.descending// 是否降序
+          }
+        }).then(resp => { // 这里使用箭头函数
+          this.items = resp.data.items;
+          this.totalItems = resp.data.total;
+          // 完成赋值后，把加载状态赋值为false
           this.loading = false;
-        }, 300)
+        })
       }
     }
   }

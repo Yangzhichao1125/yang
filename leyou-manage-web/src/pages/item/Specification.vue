@@ -2,7 +2,7 @@
   <v-card>
     <v-flex xs12 sm10>
       <v-card-title>选择分类，查看规格参数模板：</v-card-title>
-      <v-tree url="/item/category/list"
+      <v-tree url="/item/category/getCategoryByPid"
               :isEdit="false"
               @handleClick="handleClick"
       />

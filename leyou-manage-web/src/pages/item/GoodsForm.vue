@@ -17,7 +17,7 @@
             <v-form v-model="valid" ref="basic">
               <v-layout row>
                 <v-flex xs5>
-                  <v-cascader url="/item/category/list" v-model="goods.categories"
+                  <v-cascader url="/item/category/getCategoryByPid" v-model="goods.categories"
                               required show-all-levels label="商品分类"/>
                 </v-flex>
                 <v-flex offset-xs2 xs5>
