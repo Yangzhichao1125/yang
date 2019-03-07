@@ -51,7 +51,7 @@ public class BrandController {
     public ResponseEntity<List<Brand>> queryBrandByCategory(@PathVariable("cid") Long cid) {
         List<Brand> list = this.brandService.queryBrandByCategory(cid);
         if(list == null){
-            new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//            new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return ResponseEntity.ok(list);
     }

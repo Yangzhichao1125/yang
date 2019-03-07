@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Data
 @Table(name="tb_spu_detail")
@@ -15,5 +16,9 @@ public class SpuDetail {
     private String specifications;// 商品的全局规格属性
     private String packingList;// 包装清单
     private String afterService;// 售后服务
+    @Transient
+    private String genericSpec;
+    @Transient
+    private String specialSpec;
     // 省略getter和setter
 }
